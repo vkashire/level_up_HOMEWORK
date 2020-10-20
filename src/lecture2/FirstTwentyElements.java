@@ -19,8 +19,8 @@ public class FirstTwentyElements {
 
         // Print the first 20 results
         for(int i = 0; i < 20; i++){
-           System.out.println("элемент массива " + i + ": " + list[i]);
-        }
+            System.out.println("элемент массива " + i + ": " + list[i]);
+         }
 
     }
 }

@@ -10,7 +10,7 @@ public class IncreasingSequenseSorting {
      int b = 3;
      int c = -5;
 
-     //convert a,b,c valuec into array
+     //convert a,b,c values into array
      int[] list = new int[]{a,b,c};
 
      //sort arrays elements
