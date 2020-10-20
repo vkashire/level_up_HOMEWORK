@@ -13,7 +13,7 @@ public class EvenOddNumber {
         if ( m == 0) {
             System.out.println("Число n является четным");
         } else {
-            System.out.println("Число n является нечетным");
+            System.out.println("Число n является нечетным"); g
         }
 
     }
