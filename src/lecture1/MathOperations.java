@@ -12,10 +12,11 @@ public class MathOperations {
         System.out.println("Введите число b: ");
         double b = sc.nextDouble();
 
-        System.out.println("a + b = " + (double) ( a + b) );
-        System.out.println("a - b = " + (double) (a - b) );
-        System.out.println("a * b = " +  (double) a * b );
-        System.out.println("a / b = " +  (double) a / b );
+        System.out.println("a + b = " + (a + b) );
+        System.out.println("a - b = " + (a - b) );
+        System.out.println("a * b = " + (a * b) );
+        System.out.println("a / b = " + (a / b) );
 
     }
 }
+
