@@ -20,7 +20,8 @@ public class LinearEquation {
         float x;
         //a * x + b = 0;
         System.out.println("a * x + b = 0 ");
-        System.out.println("x = " + (x = -b/a));
+        System.out.println("x = " + (-b/a));
 
     }
 }
+
