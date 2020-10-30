@@ -1,6 +1,6 @@
 package lecture3;
 
-public class CalculatorTrigger {
+public class CalculatorArrayTrigger {
 
     public static void main(String[] args) {
 
