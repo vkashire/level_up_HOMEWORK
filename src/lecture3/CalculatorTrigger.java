@@ -6,7 +6,11 @@ public class CalculatorTrigger {
 
         Calculator Rechner = new Calculator();
 
-        Rechner.insertValues (2147483648L,2133483648L);
+        //Rechner.insertValues (20,4);
+        Rechner.amount(20, 4);
+        Rechner.difference(321321L, 2454L);
+        Rechner.multiplication(20.1,2);
+        Rechner.division(56,9);
 
 
 
