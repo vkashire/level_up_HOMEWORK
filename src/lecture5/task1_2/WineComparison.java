@@ -1,4 +1,6 @@
-package lecture5;
+package lecture5.task1_2;
+
+import lecture5.task1_2.Wine;
 
 public class WineComparison {
 

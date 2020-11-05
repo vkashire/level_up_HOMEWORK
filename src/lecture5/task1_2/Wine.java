@@ -1,6 +1,4 @@
-package lecture5;
-
-import org.jetbrains.annotations.NotNull;
+package lecture5.task1_2;
 
 import java.util.Arrays;
 import java.util.Objects;
