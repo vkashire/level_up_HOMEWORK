@@ -1,4 +1,4 @@
-package lecture5;
+package lecture5.task3;
 
 //import java.text.DateFormat;
 import java.util.Date;
