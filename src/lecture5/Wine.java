@@ -1,5 +1,8 @@
 package lecture5;
 
+import org.jetbrains.annotations.NotNull;
+
+import java.util.Arrays;
 import java.util.Objects;
 
 public class Wine {
@@ -17,7 +20,7 @@ public class Wine {
     @Override
     public boolean equals(Object glass) {
         if (this == glass) {
-            System.out.println("Это действительно бокал вина, уже хорошо...");
+            System.out.println("Это похоже на искомый бокал...");
             return true;
             }
         if (!(glass instanceof Wine)) {
@@ -47,4 +50,23 @@ public class Wine {
         System.out.println("сорри, здесь нет твоего бокала( ");
         return false;
         }
+
+    public void findAndDrink(Object[] glassesOfWine, Object strangeGlass){
+        for (int i = 0; i < glassesOfWine.length; i++) {
+            if (glassesOfWine[i].equals(strangeGlass)) {
+                Object X = glassesOfWine[i];
+
+                for (int j = i + 1; j < glassesOfWine.length; j++, i++){
+                    glassesOfWine[i] = glassesOfWine[j];
+                }
+                glassesOfWine[glassesOfWine.length-1] = null;
+                System.out.println("Бокал найден и выпит. Остались " + Arrays.toString(glassesOfWine));
+                break;
+
+            } else {
+                System.out.println("сорри, здесь нет твоего бокала( ");
+            }
+
+        }
+    }
 }
