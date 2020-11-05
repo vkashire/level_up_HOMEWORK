@@ -51,19 +51,30 @@ public class Wine {
         return false;
         }
 
-    public void findAndDrink(Object[] glassesOfWine, Object strangeGlass){
-        for (int i = 0; i < glassesOfWine.length; i++) {
-            if (glassesOfWine[i].equals(strangeGlass)) {
-                Object X = glassesOfWine[i];
 
+    public void findAndDrink(Object[] glassesOfWine, Object strangeGlass){
+
+        //поиск элемента в массиве
+        for (int i = 0; i < glassesOfWine.length; i++) {
+
+            if (glassesOfWine[i].equals(strangeGlass)) {
+
+                //если нашли, то сдвигаем все элементы после найденного влево на 1 индекс
                 for (int j = i + 1; j < glassesOfWine.length; j++, i++){
                     glassesOfWine[i] = glassesOfWine[j];
                 }
+
+                //когда все сдвинули, меняем последнее значение на null
+                // и выводим получившийся массив
+                // ПРОБЛЕМА: выводятся ссылки на значения, а не сами значения, что с этим делать?
                 glassesOfWine[glassesOfWine.length-1] = null;
                 System.out.println("Бокал найден и выпит. Остались " + Arrays.toString(glassesOfWine));
+
+                //т.к. все, что нам нужно, сделано, то выходим из цикла
                 break;
 
             } else {
+                //если искомого элемента в массиве нет, то просто сообщаем об этом
                 System.out.println("сорри, здесь нет твоего бокала( ");
             }
 
