@@ -44,7 +44,7 @@ public class Reader {
 //               .map(Book -> Book.bookName)
 //               .toArray();
 
-        System.out.println(fio + " взял(а) книг(и): " + Arrays.toString(bookNameList));
+        System.out.println(fio + " взял(а): " + Arrays.toString(bookNameList));
     }
 
     public static void returnBook(String fio, int booksnumber) {
@@ -61,6 +61,6 @@ public class Reader {
         for (int i = 0; i < books.length; i++) {
             bookNameList[i] = books[i].bookName;
         }
-        System.out.println(fio + " вернул(а) книг(и): " + Arrays.toString(bookNameList));
+        System.out.println(fio + " вернул(а): " + Arrays.toString(bookNameList));
     }
 }
