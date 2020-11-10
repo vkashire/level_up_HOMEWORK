@@ -2,9 +2,10 @@ package lecture5.task4;
 
 public class NewFilter extends BaseFilter {
 
-    boolean filter(Object object){
+   public boolean filter(Object object){
 
-        return false;
+       System.out.println("true");
+       return true;
     }
 
 }

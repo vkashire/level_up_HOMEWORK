@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 public class ListArray {
 
-    int[] array;
+    private int[] array;
     public ListArray(int[] array) {
         this.array = array;
     }

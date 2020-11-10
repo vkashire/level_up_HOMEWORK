@@ -10,5 +10,6 @@ public class TriggerClass {
         myLIST.trim(2);
 
     }
+
 }
 
