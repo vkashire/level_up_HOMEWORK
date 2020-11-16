@@ -7,7 +7,7 @@ import java.util.Date;
 
 public class WorkWithConsoleActions {
 
-   private static String menuText =
+    public static String menuText =
             ("1. Добавить счет\n" +
                     "2. Изменить баланс счета\n" +
                     "3. Закрыть счет\n" +
